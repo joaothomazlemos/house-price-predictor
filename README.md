@@ -6,4 +6,5 @@ To achieve better results, I did some data engineering by treating outliers, mis
 we encouter high correlated data with a significant level of skewness.
 
 Then, I trained and tested the data against some of the most popular regression models, using least squares (r2) as scoring metric.
+I also used cross validation tecnique for multiple train and test folders  and gridsearchCV for parameters tunning.
 At last, I found that linear Ridge regression model was best suited, with train score of 94% and test score of 92%
